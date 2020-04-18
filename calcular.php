@@ -33,7 +33,7 @@ $div= $_POST ['div']
 			
 	}
 	
-		
+ </body>
 }	
 
 ?>
