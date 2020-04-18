@@ -1,4 +1,5 @@
 <?php
+<body bgcolor=" #0FF0FF">
 $valor1= $_POST ['n1'];
 $valor2= $_POST ['n2'];
 $suma= $_POST ['suma'];
