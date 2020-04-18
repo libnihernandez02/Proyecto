@@ -1,6 +1,6 @@
 <?php
-$valor1 = $_POST ['n1'] 
-$valor2 = $_POST ['n2']
+$valor1_POST ['n1'] 
+$valor2_POST ['n2']
 {
         if ($operador == $suma)
 	{
