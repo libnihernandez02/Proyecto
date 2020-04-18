@@ -1,34 +1,38 @@
 <?php
-$valor1 = $_POST ['n1'];
-$valor2 = $_POST ['n2'];
-$total; 
-$ope = $_POST ['operador'];
-
-     if  ($ope == "suma")
+$valor1= $_POST ['n1'];
+$valor2= $_POST ['n2'];
+$suma= $_POST ['suma'];
+$resta= $_POST ['resta']; 
+$multi= $_POST ['multi'];
+$div= $_POST ['div'] 
+{
+        mas si ($operador == $suma_POST)
 	{
-			$total = $valor1 + $valor2;
-			echo "La suma es: ".$total;
+			echo "La suma es: "
+			$total=$valor1 + $valor2;
 			
 	} 
-	 if  ($ope == "resta")
+	 mas si ($operador == $resta_POST)
 	{
-			$total = $valor1 - $valor2;
-			echo "La resta es: ".$total;
+			echo "La resta es: "
+			$total=$valor1 - $valor2;
 			
 	} 
-	if  ($ope == "multi") 
+	mas si ($operador == $multi_POST) 
 	{
-			$total = $valor1 * $valor2;
-			echo "La multiplicacion es: ".$total;
+			echo "La multiplicacion es: "
+			$total=$valor1 * $valor2;
 			
 		
 	} 
-	if ($ope == "div") 
+	mas ($operador == $div_POST) 
 	{
-			$total = $valor1 / $valor2;
-			echo "La division es: ".$total;
+			echo "La division es: "
+			$total=$valor1 / $valor2;
 			
 	}
+	
 		
+}	
 
 ?>
