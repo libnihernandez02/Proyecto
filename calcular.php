@@ -1,10 +1,6 @@
 <?php
 $valor1 = $_POST ['n1'] 
 $valor2 = $_POST ['n2']
-$suma= $_POST ['suma'] 
-$resta= $_POST ['resta'] 
-$multi= $_POST ['multi'] 
-$div= $_POST ['div'] 
 {
         if ($operador == $suma)
 	{
