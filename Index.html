@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title>CALCULADORA</title>
-    </head>
-    <body>
-        <div align="center"  style = "background-color:lightblue ; padding: 50 px;">
-            <h1>
+<head>
+    <title>CALCULADORA</title>
+</head>
+<body bgcolor=" #0FF0FF">
+    <div align="center">
+        <h1>
             <span style="color: purple ">CALCULADORA</span>
-            <hr width="1000 %" align="center" />
-            </h1>
+            <hr width="1000 %" align="center" "/>
+        </h1>
+    </div>
+    <div align="center">
 
-                <div align="center" style = "background-color:lightblue ;color: white; padding: 50 px;">
+        <label for="n1"><span style="color: purple ">valor1</span></label>
+        <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor: " />
+        <br /><br />
+        <label for="n1"><span style="color: purple ">valor2</span></label>
+        <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor: " />
+        <br /><br />
 
-                    <label for="n1"><span style="color: purple ">valor1</span></label>
-                    <input type="text" name="n1" id="n1" placeholder="Ingrese el primer valor: " />
-                    <br /><br />
-                    <label for="n1"><span style="color: purple ">valor2</span></label>
-                    <input type="text" name="n2" id="n2" placeholder="Ingrese el segundo valor: " />
-                    <br /><br />
+        <form method="post" action="calcular.php">
+            <select name="operador">
 
-                    <form method="post" action="calcular.php">
-                        <select name="operador">
-                            
-                                <label>Selecciona la operacion:</label>
-                                <option value="suma">SUMA</option>
-                                <option value="resta">RESTA</option>
-                                <option value="multi">MULTIPLICACIÓN</option>
-                                <option value="div">DIVISIÓN</option>
-                        </select>
-                        <input type="submit" value="Calcular" />
-                    </form>
-                </>
+                <label>Selecciona la operacion:</label>
+                <option value="suma">SUMA</option>
+                <option value="resta">RESTA</option>
+                <option value="multi">MULTIPLICACIÓN</option>
+                <option value="div">DIVISIÓN</option>
+            </select>
+            <input type="submit" value="Calcular" />
+        </form>
+    </div>
+
 </body>
-    
+
 </html>
